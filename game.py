@@ -16,10 +16,10 @@ def print_gameboard(x, y):
      [" ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
      [" ", " ", " ", " ", " ", " ", " ", " ", " ", " "]]
 
-    board_width = len(board[0])
-    board_height = len(board)
+    board_w = len(board[0])
+    board_h = len(board)
 
-    if x < board_width and y < board_height:
+    if x < board_w and y < board_h:
         board[y][x] = "="
     else:
         x = 0
