@@ -37,7 +37,7 @@ def print_gameboard(x, y):
         sg_row = ""
 
     for row in sg_list:
-        print(f"|{row}|")
+        print(f"|{row}|") # => print("|{}|".format(row))
 
     print("+----------+")
 
