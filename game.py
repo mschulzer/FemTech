@@ -60,5 +60,5 @@ while life > 0:
         else:
             y = 0
 
-    time.sleep(0.5)
+    time.sleep(0.1)
     
